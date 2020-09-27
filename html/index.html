@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <title>Today's Thoughts</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="main-container">
+            <h1>Thoughts about...</h1>
+            <p>Write about anything that comes to your mind.</p>
+
+            <label for="title">Post Title</label>
+            <input type="text" name="title" id="post-title">
+
+            <label for="time">Post Time</label>
+            <input type="date" name="post-time" id="post-time">
+
+            <label for="textarea">Write what bugs you</label>
+            <textarea name="post" id="post-area" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit" id="submitBtn">
+
+        </div>
+    </main>
+
+    <section class="posts">
+
+        <div class="posts-container">
+        </div>
+
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
